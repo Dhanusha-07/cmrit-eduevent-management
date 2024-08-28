@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../assets/higherstudies.jpg");
+    /* Add your background image URL */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Keep the background image fixed */
+  }
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    width: 80%;
+    margin-left: 140px; /* Add left margin */
+    margin-right: -20px; /* Add right margin */
+    margin-bottom: 140px; /* Add bottom margin */
+    overflow-y: auto;
+}
+
+
+  
+  h1 {
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  title {
+  text-align: center;
+}
+  
+  .content {
+    margin-top: 20px;
+  }
+  
+  .semester {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #020505;
+    font-weight: bold;
+
+  }
+  h1{
+    color: #333;
+    font-weight: bold;
+
+  }
+  h3{
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding: 15px;
+  }
+  
+  .pdfs,
+  .videos {
+    margin-top: 10px;
+  }
+  
+  .modules ul {
+    list-style: none;
+    padding: 7px;
+    display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping to next line */
+  overflow-x: auto;
+  
+  }
+  
+  ul {
+    list-style: none;
+    padding: 5px;
+  }
+
+  .modules ul li {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    color:rgb(73, 37, 193);
+    display: inline-block;
+    
+    
+  }
+
+  ul li {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    color:rgb(73, 37, 193);
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Added CSS for horizontal list
+  .pdfs ul li {
+    display: inline-block;
+    margin-right: 20px; */
+  
+
+  .pdfs {
+    margin-top: 10px;
+    max-height: 300px; /* Set a maximum height for the list */
+     /* Enable vertical scrolling */
+  }
+  
+  .pdfs ul {
+    padding: 0;
+    list-style: none;
+  }
+  /* Adjusted CSS */
+.modules {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  flex-wrap: wrap;
+  padding: 5;
+}
+
+.modules a {
+  margin-right: 25px; /* Adjust spacing between modules */
+}
+
+  
