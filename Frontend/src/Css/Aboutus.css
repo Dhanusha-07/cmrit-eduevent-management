@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.about-us-page {
+  max-width: 800px; /* Adjust max-width as needed */
+  margin: 0 auto; /* Center align the content */
+}
+
+.section {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.visitors-count-section {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.visitors-count-section button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.visitors-count-section button:hover {
+  background-color: #45a049;
+}
+
+h2{
+    font-size: 20px;
+    font: bold;
+}

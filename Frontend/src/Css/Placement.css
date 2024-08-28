@@ -1,0 +1,51 @@
+/* Placement.css */
+
+.flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .flex-grow {
+    flex-grow: 1;
+  }
+  
+  .bg-white {
+    background-color: #fff;
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .placements-container {
+    margin-top: 20px;
+    background-color: #d4d4d4;
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  }
+  
+  .placement-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .placement-box h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .placement-box p {
+    margin: 5px 0;
+  }
+  

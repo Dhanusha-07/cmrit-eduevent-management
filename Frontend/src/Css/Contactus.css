@@ -1,0 +1,18 @@
+.ContactUs {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .contact-us-page {
+    padding: 20px;
+    background-image: url("path_to_your_watermark_image.jpg");
+    background-repeat: repeat;
+  }
+  
+  .contact-us-page h1 {
+    text-align: center;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+    padding: 20px;
+  }
